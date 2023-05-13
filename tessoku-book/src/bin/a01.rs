@@ -1,3 +1,6 @@
 fn main() {
-    todo!();
+    proconio::input! {
+        n: u16,
+    }
+    print!("{}", n * n)
 }
