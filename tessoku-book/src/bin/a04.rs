@@ -1,3 +1,6 @@
 fn main() {
-    todo!();
+    proconio::input! {
+        n: u16,
+    }
+    println!("{:010b}", n);
 }
